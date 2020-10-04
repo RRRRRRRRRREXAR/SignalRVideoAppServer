@@ -9,5 +9,6 @@ namespace VideoAppDAL.Entities
         public string Name { get; set; }
         public ICollection<User> Users { get; set; }
         public ICollection<Message> Messages { get; set; }
+        public User Owner { get; set; }
     }
 }

@@ -15,32 +15,44 @@ namespace VideoAppBLL.MapProfiles
                 .ForMember(
                 dest => dest.ProfileImage,
                 opt => opt.MapFrom(src => src.ProfileImage));
+
             CreateMap<User, UserDTO>()
                 .ForMember(
                 dest => dest.ProfileImage,
                 opt => opt.MapFrom(src => src.ProfileImage));
+
             CreateMap<DialogDTO, Dialog>()
                 .ForMember(
                 dest => dest.Messages,
                 opt => opt.MapFrom(src => src.Messages))
                 .ForMember(
                 dest => dest.Users,
-                opt => opt.MapFrom(src => src.Users));
+                opt => opt.MapFrom(src => src.Users))
+                .ForMember(
+                dest => dest.Owner,
+                opt => opt.MapFrom(src => src.Owner));
+
             CreateMap<Dialog, DialogDTO>()
                 .ForMember(
                 dest => dest.Messages,
                 opt => opt.MapFrom(src => src.Messages))
                 .ForMember(
                 dest => dest.Users,
-                opt => opt.MapFrom(src => src.Users));
+                opt => opt.MapFrom(src => src.Users))
+                .ForMember(
+                dest => dest.Owner,
+                opt => opt.MapFrom(src => src.Owner));
+
             CreateMap<ImageDTO, Image>()
                 .ForMember(
                 dest => dest.UserId,
                 opt => opt.MapFrom(src => src.User));
+
             CreateMap<Image, ImageDTO>()
                     .ForMember(
                     dest => dest.User,
                     opt => opt.MapFrom(src => src.UserId));
+
             CreateMap<MessageDTO, Message>()
                 .ForMember(
                 dest => dest.DialogId,
