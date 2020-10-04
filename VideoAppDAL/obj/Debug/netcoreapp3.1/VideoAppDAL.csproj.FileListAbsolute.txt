@@ -3,3 +3,7 @@ C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\bin\Debug\netcoreapp3.1\
 C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\obj\Debug\netcoreapp3.1\VideoAppDAL.csprojAssemblyReference.cache
 C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\obj\Debug\netcoreapp3.1\VideoAppDAL.AssemblyInfoInputs.cache
 C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\obj\Debug\netcoreapp3.1\VideoAppDAL.AssemblyInfo.cs
+C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\bin\Debug\netcoreapp3.1\VideoAppDAL.pdb
+C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\obj\Debug\netcoreapp3.1\VideoAppDAL.csproj.CoreCompileInputs.cache
+C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\obj\Debug\netcoreapp3.1\VideoAppDAL.dll
+C:\Users\rabes\source\repos\SignalRVideoApp\VideoAppDAL\obj\Debug\netcoreapp3.1\VideoAppDAL.pdb

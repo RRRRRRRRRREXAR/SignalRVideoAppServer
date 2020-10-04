@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VideoAppDAL.Entities
 {
-    public class Dialog:BaseEntity
+    public class Conversation:BaseEntity
     {
         public string Name { get; set; }
         public ICollection<User> Users { get; set; }

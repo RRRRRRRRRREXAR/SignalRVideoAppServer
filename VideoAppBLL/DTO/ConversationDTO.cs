@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VideoAppBLL.DTO
 {
-    public class DialogDTO
+    public class ConversationDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

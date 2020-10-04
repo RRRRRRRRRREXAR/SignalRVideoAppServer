@@ -8,7 +8,7 @@ namespace VideoAppDAL.DB
 {
     public class AppContext:DbContext
     {
-        DbSet<Dialog> Dialogs { get; set; }
+        DbSet<Conversation> Conversations { get; set; }
         DbSet<User> Users { get; set; }
         DbSet<Image> Images { get; set; }
         DbSet<Message> Messages { get; set; }

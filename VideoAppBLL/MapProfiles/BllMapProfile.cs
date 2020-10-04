@@ -21,7 +21,7 @@ namespace VideoAppBLL.MapProfiles
                 dest => dest.ProfileImage,
                 opt => opt.MapFrom(src => src.ProfileImage));
 
-            CreateMap<DialogDTO, Dialog>()
+            CreateMap<ConversationDTO, Conversation>()
                 .ForMember(
                 dest => dest.Messages,
                 opt => opt.MapFrom(src => src.Messages))
@@ -32,7 +32,7 @@ namespace VideoAppBLL.MapProfiles
                 dest => dest.Owner,
                 opt => opt.MapFrom(src => src.Owner));
 
-            CreateMap<Dialog, DialogDTO>()
+            CreateMap<Conversation, ConversationDTO>()
                 .ForMember(
                 dest => dest.Messages,
                 opt => opt.MapFrom(src => src.Messages))
